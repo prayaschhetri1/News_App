@@ -1,0 +1,17 @@
+.sidebar_cont {
+  height: 80vh;
+  flex: 1;
+  background: rgb(1, 1, 24);
+  color: white;
+  overflow-x: auto;
+  padding: 2vh 1vw 4vh 1vw;
+  line-height: 150%;
+}
+
+/* Media query */
+
+@media screen and (max-width: 900px) {
+  .sidebar_cont {
+    display: none;
+  }
+}

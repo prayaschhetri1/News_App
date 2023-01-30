@@ -1,0 +1,68 @@
+.navbar_cont {
+  width: 100vw;
+  height: 20vh;
+  position: sticky;
+  left: 50%;
+  top:0;  
+  background: rgb(1, 1, 24);
+  padding: 4vh;
+  box-shadow: 0 4px 8px 0 rgba(214, 212, 212, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.nav{
+   height: 100%;
+   width: 100%;
+}
+
+
+
+.uppr_nav_cont{
+
+    display: flex;
+    width: 86vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+    gap: 4vw;
+}
+.logo{
+  font-size: 24px;
+  background: rgb(30, 16, 36);
+  padding: 1.5vh 1vw;
+  border-radius: 9px;
+
+
+}
+.nav_search_bar{
+  flex:1;
+   
+}
+
+.nav_search_bar>input{
+  width: 100%;
+  padding: 10px 10px;
+  border-radius: 9px;
+  color: white;
+  background: rgb(30, 16, 36);
+  border: none;
+  outline: none;
+  font-size: 20px;
+  border:2px solid transparent;
+}
+.nav_search_bar>input:focus{
+  border: 2px solid rgb(91, 91, 94);
+}
+.slct_categ>select{
+  padding: 1.5vh 2vw;
+  border-radius: 7px;
+  background: rgb(30, 16, 36);
+  color: white;
+  font-size: 22px;
+  border: 2px solid transparent;
+  outline: none;
+
+}
+
+.slct_categ>select:focus{
+  border: 2px solid rgb(91, 91, 94);
+
+}
